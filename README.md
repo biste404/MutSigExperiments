@@ -2,8 +2,8 @@
 
 Paper: 
 
-[Topic Modelling for identifying signatures of mutational processes in cancer and virus genomes using Latent Dirichlet Allocation]
-(Paper.pdf)
+Topic Modelling for identifying signatures of mutational processes in cancer and virus genomes using Latent Dirichlet Allocation
+[Paper](Paper.pdf)
 
 #TopicModelling #Python #NLP #Gensim #LDA #LatentDirichletAllocation #ExperimentFramework #GridSearch #Ensemble #Visualisations #GenomeMutations #MutationalSignatures #CancerMutations #CovidMutations
 
