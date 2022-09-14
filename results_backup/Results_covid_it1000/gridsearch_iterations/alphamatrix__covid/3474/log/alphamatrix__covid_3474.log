@@ -1,0 +1,57 @@
+Start time: 2022-09-01 08:10:46.148355
+Model_name:  alphamatrix__covid
+Number of records to train:  86
+Model directory: /Users/bs/Documents/TestRun6/MutSigExperiments/Results_covid_it1000_ig0/gridsearch_iterations/alphamatrix__covid/3474/
+
+****************************************** GRID SEARCH - ITERATIONS ******************************************
+Grid search parameters: Passes = [2, 5, 10, 30, 50, 100, 200, 400, 600, 800, 1000], Iterations = [2, 5, 10, 30, 50, 100, 200, 400, 600, 800, 1000], Num topics = 4, Metric = Variational Lower Bound
+Iterations range: [2, 5, 10, 30, 50, 100, 200, 400, 600, 800, 1000]
+iterations:  2
+Variational Lower Bound: -1060237.0640182416
+Time taken: 2.578365
+iterations:  5
+Variational Lower Bound: -1060225.286343901
+Time taken: 2.28512
+iterations:  10
+Variational Lower Bound: -1060160.1754508147
+Time taken: 2.298921
+iterations:  30
+Variational Lower Bound: -1052889.8752944362
+Time taken: 4.128473
+iterations:  50
+Variational Lower Bound: -1052371.6136644604
+Time taken: 7.102949
+iterations:  100
+Variational Lower Bound: -1052165.333430967
+Time taken: 18.309071
+iterations:  200
+Variational Lower Bound: -1052041.2560852198
+Time taken: 56.008095
+iterations:  400
+Variational Lower Bound: -1051589.7454559235
+Time taken: 157.415072
+iterations:  600
+Variational Lower Bound: -1051586.5295614032
+Time taken: 267.788563
+iterations:  800
+Variational Lower Bound: -1051585.553939226
+Time taken: 369.573423
+iterations:  1000
+Variational Lower Bound: -1051583.1143796379
+Time taken: 465.905459
+    Num Topics  Iterations  ...  Variational Lower Bound     Time(s)
+0            4           2  ...            -1.060237e+06    2.578365
+1            4           5  ...            -1.060225e+06    2.285120
+2            4          10  ...            -1.060160e+06    2.298921
+3            4          30  ...            -1.052890e+06    4.128473
+4            4          50  ...            -1.052372e+06    7.102949
+5            4         100  ...            -1.052165e+06   18.309071
+6            4         200  ...            -1.052041e+06   56.008095
+7            4         400  ...            -1.051590e+06  157.415072
+8            4         600  ...            -1.051587e+06  267.788563
+9            4         800  ...            -1.051586e+06  369.573423
+10           4        1000  ...            -1.051583e+06  465.905459
+
+[11 rows x 9 columns]
+Best Variational Lower Bound at Iteration = 1000
+Finish time: 2022-09-01 08:33:20.145953

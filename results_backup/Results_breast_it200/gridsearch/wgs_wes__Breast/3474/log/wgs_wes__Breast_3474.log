@@ -1,0 +1,98 @@
+Start time: 2022-08-22 01:24:55.362747
+Model_name:  wgs_wes__Breast
+Number of records to train:  934
+Model directory: /Users/bs/Documents/Dissertation/results_cancer/gridsearch/wgs_wes__Breast/3474/
+
+****************************************** Baseline LDA ******************************************
+Baseline model parameters: Passes = 2, Iterations = 2, Num topics = 5
+Variational Lower Bound:  -19014569.462907314
+Mean Cosine Similarity:  0.983
+Median Cosine Similarity:  0.985
+
+****************************************** GRID SEARCH - NUM TOPICS ******************************************
+Grid search parameters: Passes = 200, Iterations = 200, Num topics = range(2, 31), Metric = Variational Lower Bound
+num_topics:  2
+num_topics:  3
+num_topics:  4
+num_topics:  5
+num_topics:  6
+num_topics:  7
+num_topics:  8
+num_topics:  9
+num_topics:  10
+num_topics:  11
+num_topics:  12
+num_topics:  13
+num_topics:  14
+num_topics:  15
+num_topics:  16
+num_topics:  17
+num_topics:  18
+num_topics:  19
+num_topics:  20
+num_topics:  21
+num_topics:  22
+num_topics:  23
+num_topics:  24
+num_topics:  25
+num_topics:  26
+num_topics:  27
+num_topics:  28
+num_topics:  29
+num_topics:  30
+    Num Topics  Mean Cosine Similarity  Median Cosine Similarity  Coherence cv  Coherence umass  Perplexity  Variational Lower Bound
+0            2                   0.606                     0.606             0                0           0            -1.823364e+07
+1            3                   0.570                     0.587             0                0           0            -1.807773e+07
+2            4                   0.352                     0.487             0                0           0            -1.803790e+07
+3            5                   0.508                     0.498             0                0           0            -1.800865e+07
+4            6                   0.350                     0.449             0                0           0            -1.797172e+07
+5            7                   0.521                     0.456             0                0           0            -1.796311e+07
+6            8                   0.478                     0.462             0                0           0            -1.795692e+07
+7            9                   0.443                     0.414             0                0           0            -1.794891e+07
+8           10                   0.420                     0.430             0                0           0            -1.794593e+07
+9           11                   0.467                     0.445             0                0           0            -1.794303e+07
+10          12                   0.439                     0.426             0                0           0            -1.794265e+07
+11          13                   0.396                     0.386             0                0           0            -1.794325e+07
+12          14                   0.402                     0.410             0                0           0            -1.794184e+07
+13          15                   0.504                     0.457             0                0           0            -1.794411e+07
+14          16                   0.485                     0.449             0                0           0            -1.794424e+07
+15          17                   0.490                     0.452             0                0           0            -1.794464e+07
+16          18                   0.543                     0.482             0                0           0            -1.794478e+07
+17          19                   0.543                     0.490             0                0           0            -1.794638e+07
+18          20                   0.505                     0.484             0                0           0            -1.794466e+07
+19          21                   0.499                     0.484             0                0           0            -1.794376e+07
+20          22                   0.477                     0.465             0                0           0            -1.794529e+07
+21          23                   0.559                     0.507             0                0           0            -1.794485e+07
+22          24                   0.557                     0.509             0                0           0            -1.794604e+07
+23          25                   0.484                     0.476             0                0           0            -1.794752e+07
+24          26                   0.523                     0.494             0                0           0            -1.794793e+07
+25          27                   0.677                     0.543             0                0           0            -1.795296e+07
+26          28                   0.618                     0.541             0                0           0            -1.795707e+07
+27          29                   0.665                     0.533             0                0           0            -1.795528e+07
+28          30                   0.685                     0.535             0                0           0            -1.795666e+07
+Best Variational Lower Bound at Num Topics = 14
+
+****************************************** GRID SEARCH - ALPHA, BETA ******************************************
+Grid search parameters: Passes = 200, Iterations = 200, Num topics = 14, Metric = Variational Lower Bound
+    topics  alpha  beta  Variational Lower Bound  Mean Cosine Similarity  Median Cosine Similarity
+0       14   0.01  0.01            -1.795255e+07                   0.403                     0.400
+1       14   0.01  0.31            -1.794764e+07                   0.445                     0.458
+2       14   0.01  0.61            -1.794734e+07                   0.444                     0.443
+3       14   0.01  0.91            -1.794744e+07                   0.442                     0.436
+4       14   0.31  0.01            -1.794473e+07                   0.398                     0.385
+5       14   0.31  0.31            -1.793950e+07                   0.438                     0.447
+6       14   0.31  0.61            -1.794012e+07                   0.434                     0.429
+7       14   0.31  0.91            -1.794033e+07                   0.434                     0.425
+8       14   0.61  0.01            -1.794485e+07                   0.420                     0.427
+9       14   0.61  0.31            -1.794068e+07                   0.428                     0.436
+10      14   0.61  0.61            -1.794141e+07                   0.423                     0.428
+11      14   0.61  0.91            -1.794182e+07                   0.425                     0.437
+12      14   0.91  0.01            -1.794485e+07                   0.410                     0.413
+13      14   0.91  0.31            -1.794140e+07                   0.413                     0.425
+14      14   0.91  0.61            -1.794236e+07                   0.414                     0.400
+15      14   0.91  0.91            -1.794218e+07                   0.412                     0.412
+Best Variational Lower Bound at Alpha = 0.31, Tuned Beta = 0.31
+
+****************************************** TUNED HYPERPARAMETERS ******************************************
+Tuned model parameters: Num topics = 14, Alpha = 0.31, Beta = 0.31
+Finish time: 2022-08-22 05:47:23.690936

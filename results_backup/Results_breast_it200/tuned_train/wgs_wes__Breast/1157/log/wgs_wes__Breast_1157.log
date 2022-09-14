@@ -1,0 +1,36 @@
+Start time: 2022-08-29 19:47:12.229841
+Model_name:  wgs_wes__Breast
+Number of records to train:  934
+Model directory: /Users/bs/Documents/TestRun6/MutSigExperiments/Results_Breast_it200_ig100/tuned_train/wgs_wes__Breast/1157/
+
+****************************************** LDA TRAINING ******************************************
+Tuned model parameters: Num topics = 14, Alpha = 0.31, Beta = 0.31
+Passes = 200, Iterations = 200
+LDA Signatures (with support): 
+topic        mutation_type         0         1         2         3         4         5         6         7         8         9        10        11        12        13
+0                  A[C>A]A  0.011669  0.013590  0.001714  0.007058  0.029254  0.016333  0.018787  0.003927  0.029495  0.016982  0.000123  0.013888  0.015630  0.000692
+1                  A[C>A]C  0.007918  0.011751  0.001375  0.005875  0.011736  0.010984  0.014505  0.003021  0.027669  0.014088  0.000672  0.014261  0.017495  0.000396
+2                  A[C>A]G  0.000482  0.003199  0.000343  0.001301  0.002508  0.001778  0.002775  0.000270  0.003579  0.001751  0.000026  0.003167  0.001429  0.000096
+3                  A[C>A]T  0.008386  0.010798  0.001569  0.004122  0.012925  0.006728  0.019894  0.002178  0.026589  0.009818  0.002221  0.007280  0.017146  0.000308
+4                  A[C>G]A  0.004380  0.021991  0.004259  0.005197  0.002811  0.006308  0.022839  0.003121  0.011717  0.011506  0.001214  0.006459  0.002425  0.001504
+..                     ...       ...       ...       ...       ...       ...       ...       ...       ...       ...       ...       ...       ...       ...       ...
+93                 T[T>G]C  0.001815  0.005673  0.000532  0.005010  0.002386  0.002588  0.005973  0.009171  0.003268  0.002869  0.000189  0.003590  0.001529  0.000031
+94                 T[T>G]G  0.004460  0.010190  0.000489  0.006737  0.002675  0.003864  0.012225  0.005249  0.006585  0.003335  0.001749  0.004405  0.001969  0.000137
+95                 T[T>G]T  0.008807  0.011753  0.001542  0.017735  0.013268  0.008048  0.016328  0.095718  0.008849  0.010384  0.005030  0.008734  0.005184  0.000162
+96        support_presence  0.362955  0.556745  0.418630  0.658458  0.746253  0.693790  0.542827  0.234475  0.634904  0.553533  0.628480  0.864026  0.494647  0.411135
+97     support_probability  0.017948  0.089069  0.061368  0.055713  0.083582  0.062600  0.069066  0.008174  0.097657  0.055017  0.044624  0.207354  0.035823  0.100920
+
+[98 rows x 15 columns]
+Mean Cosine Similarity:  0.495
+Median Cosine Similarity:  0.474
+Variational Lower Bound:  -17949325.637245417
+
+****************************************** SAVE TO DISK ******************************************
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_Breast_it200_ig100/tuned_train/wgs_wes__Breast/1157/similarity_to_cosmic.csv
+Mean cosine similarity with matching COSMIC signatures: 
+0.8861581312148977
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_Breast_it200_ig100/tuned_train/wgs_wes__Breast/1157/sig_viz.csv
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_Breast_it200_ig100/tuned_train/wgs_wes__Breast/1157/wgs_wes__Breast__document_signature_probabilities_1157.csv
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_Breast_it200_ig100/tuned_train/wgs_wes__Breast/1157/wgs_wes__Breast__signatures_1157.csv
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_Breast_it200_ig100/tuned_train/wgs_wes__Breast/1157/wgs_wes__Breast__document_signature_probabilities_1157.png
+Finish time: 2022-08-29 20:00:40.080170

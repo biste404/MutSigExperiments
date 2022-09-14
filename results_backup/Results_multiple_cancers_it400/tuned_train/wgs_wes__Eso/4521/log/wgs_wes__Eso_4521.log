@@ -1,0 +1,36 @@
+Start time: 2022-08-31 11:57:32.856223
+Model_name:  wgs_wes__Eso
+Number of records to train:  724
+Model directory: /Users/bs/Documents/TestRun6/MutSigExperiments/Results_KidneyRCC_it400_ig100/tuned_train/wgs_wes__Eso/4521/
+
+****************************************** LDA TRAINING ******************************************
+Tuned model parameters: Num topics = 12, Alpha = 0.31, Beta = 0.31
+Passes = 400, Iterations = 400
+LDA Signatures (with support): 
+topic        mutation_type         0         1         2         3         4         5         6         7         8         9        10        11
+0                  A[C>A]A  0.002794  0.014108  0.003994  0.022066  0.042075  0.019615  0.004119  0.019009  0.007808  0.020458  0.003437  0.001273
+1                  A[C>A]C  0.001207  0.008882  0.007190  0.007184  0.014447  0.016459  0.003264  0.010603  0.007962  0.014667  0.001620  0.001459
+2                  A[C>A]G  0.000736  0.001650  0.002216  0.001085  0.001941  0.002173  0.000471  0.000969  0.001220  0.017327  0.000169  0.000401
+3                  A[C>A]T  0.001464  0.011514  0.002708  0.011034  0.020334  0.016670  0.003211  0.008681  0.003897  0.006035  0.002178  0.002313
+4                  A[C>G]A  0.004192  0.008836  0.002017  0.006021  0.004470  0.013099  0.001479  0.003618  0.001703  0.009476  0.001441  0.002097
+..                     ...       ...       ...       ...       ...       ...       ...       ...       ...       ...       ...       ...       ...
+93                 T[T>G]C  0.001425  0.002768  0.001132  0.003430  0.000923  0.005388  0.006489  0.000791  0.001787  0.001912  0.006934  0.000856
+94                 T[T>G]G  0.000756  0.005741  0.000939  0.007358  0.002637  0.009282  0.004919  0.002466  0.002311  0.002115  0.003937  0.002606
+95                 T[T>G]T  0.000304  0.017303  0.000656  0.023258  0.010133  0.021002  0.101760  0.019354  0.004006  0.000028  0.083508  0.011262
+96        support_presence  0.700276  0.267956  0.928177  0.227901  0.360497  0.513812  0.284530  0.287293  0.551105  0.765193  0.388122  0.375691
+97     support_probability  0.139661  0.028959  0.272011  0.017193  0.047832  0.115047  0.037336  0.034747  0.064624  0.104662  0.082656  0.041350
+
+[98 rows x 13 columns]
+Mean Cosine Similarity:  0.452
+Median Cosine Similarity:  0.385
+Variational Lower Bound:  -12892320.866724253
+
+****************************************** SAVE TO DISK ******************************************
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_KidneyRCC_it400_ig100/tuned_train/wgs_wes__Eso/4521/similarity_to_cosmic.csv
+Mean cosine similarity with matching COSMIC signatures: 
+0.905621120498919
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_KidneyRCC_it400_ig100/tuned_train/wgs_wes__Eso/4521/sig_viz.csv
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_KidneyRCC_it400_ig100/tuned_train/wgs_wes__Eso/4521/wgs_wes__Eso__document_signature_probabilities_4521.csv
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_KidneyRCC_it400_ig100/tuned_train/wgs_wes__Eso/4521/wgs_wes__Eso__signatures_4521.csv
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_KidneyRCC_it400_ig100/tuned_train/wgs_wes__Eso/4521/wgs_wes__Eso__document_signature_probabilities_4521.png
+Finish time: 2022-08-31 12:18:13.497638

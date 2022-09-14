@@ -1,0 +1,33 @@
+Start time: 2022-08-29 18:28:59.916543
+Model_name:  alphamatrix__covid
+Number of records to train:  86
+Model directory: /Users/bs/Documents/TestRun6/MutSigExperiments/Results_covid_it1000_ig0/tuned_train/alphamatrix__covid/3474/
+
+****************************************** LDA TRAINING ******************************************
+Tuned model parameters: Num topics = 4, Alpha = 0.61, Beta = 0.91
+Passes = 1000, Iterations = 1000
+LDA Signatures (with support): 
+topic        mutation_type         0         1         2         3
+0                  A[A>C]A  0.007947  0.005265  0.004727  0.002950
+1                  A[A>C]C  0.004497  0.005076  0.002095  0.000320
+2                  A[A>C]G  0.006451  0.005108  0.005419  0.001587
+3                  A[A>C]T  0.008960  0.005026  0.005197  0.001909
+4                  A[A>G]A  0.009961  0.005256  0.015939  0.009654
+..                     ...       ...       ...       ...       ...
+189                T[T>G]C  0.005731  0.005009  0.004444  0.000743
+190                T[T>G]G  0.006421  0.005125  0.001998  0.000752
+191                T[T>G]T  0.010079  0.005194  0.002897  0.001263
+192       support_presence  0.813953  0.104651  0.976744  0.965116
+193    support_probability  0.211527  0.009101  0.258744  0.518285
+
+[194 rows x 5 columns]
+Mean Cosine Similarity:  0.804
+Median Cosine Similarity:  0.813
+Variational Lower Bound:  -1051522.6494886875
+
+****************************************** SAVE TO DISK ******************************************
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_covid_it1000_ig0/tuned_train/alphamatrix__covid/3474/sig_viz.csv
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_covid_it1000_ig0/tuned_train/alphamatrix__covid/3474/alphamatrix__covid__document_signature_probabilities_3474.csv
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_covid_it1000_ig0/tuned_train/alphamatrix__covid/3474/alphamatrix__covid__signatures_3474.csv
+/Users/bs/Documents/TestRun6/MutSigExperiments/Results_covid_it1000_ig0/tuned_train/alphamatrix__covid/3474/alphamatrix__covid__document_signature_probabilities_3474.png
+Finish time: 2022-08-29 18:46:03.153323

@@ -1,0 +1,9 @@
+Start time: 2022-08-29 21:20:36.368626
+Model_name:  alphamatrix__covid
+Number of records to train:  86
+Model directory: /Users/bs/Documents/TestRun6/MutSigExperiments/Results_covid_it1000_ig0/ensemble_train/alphamatrix__covid/3474/
+
+****************************************** ENSEMBLE TRAINING ******************************************
+Tuned model parameters: Num topics = 4, Alpha = 0.61, Beta = 0.91
+Num models = 16 Passes = 1000, Iterations = 1000
+Training EnsembleLDA (may take some time depending on the parameters): 

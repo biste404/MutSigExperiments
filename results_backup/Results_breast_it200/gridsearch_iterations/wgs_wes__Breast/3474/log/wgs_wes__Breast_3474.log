@@ -1,0 +1,47 @@
+Start time: 2022-08-31 22:59:46.786092
+Model_name:  wgs_wes__Breast
+Number of records to train:  934
+Model directory: /Users/bs/Documents/TestRun6/MutSigExperiments/Results_Breast_it50_ig100/gridsearch_iterations/wgs_wes__Breast/3474/
+
+****************************************** GRID SEARCH - ITERATIONS ******************************************
+Grid search parameters: Passes = [2, 5, 10, 20, 50, 100, 200, 400, 600], Iterations = [2, 5, 10, 20, 50, 100, 200, 400, 600], Num topics = 14, Metric = Variational Lower Bound
+Iterations range: [2, 5, 10, 20, 50, 100, 200, 400, 600]
+iterations:  2
+Variational Lower Bound: -19049938.836287737
+Time taken: 7.587085
+iterations:  5
+Variational Lower Bound: -18456736.30760753
+Time taken: 9.537484
+iterations:  10
+Variational Lower Bound: -18121745.69531846
+Time taken: 14.11531
+iterations:  20
+Variational Lower Bound: -18014624.93298769
+Time taken: 27.517079
+iterations:  50
+Variational Lower Bound: -17971423.24104333
+Time taken: 105.56845
+iterations:  100
+Variational Lower Bound: -17948406.299631596
+Time taken: 336.690011
+iterations:  200
+Variational Lower Bound: -17941828.966462135
+Time taken: 1192.027741
+iterations:  400
+Variational Lower Bound: -17935342.84184301
+Time taken: 2996.14002
+iterations:  600
+Variational Lower Bound: -17934892.84130752
+Time taken: 5094.399772
+   Num Topics  Iterations  Mean Cosine Similarity  Median Cosine Similarity  Coherence cv  Coherence umass  Perplexity  Variational Lower Bound      Time(s)
+0          14           2                   0.976                     0.975             0                0           0            -1.904994e+07     7.587085
+1          14           5                   0.938                     0.856             0                0           0            -1.845674e+07     9.537484
+2          14          10                   0.834                     0.739             0                0           0            -1.812175e+07    14.115310
+3          14          20                   0.767                     0.644             0                0           0            -1.801462e+07    27.517079
+4          14          50                   0.559                     0.540             0                0           0            -1.797142e+07   105.568450
+5          14         100                   0.494                     0.475             0                0           0            -1.794841e+07   336.690011
+6          14         200                   0.402                     0.410             0                0           0            -1.794183e+07  1192.027741
+7          14         400                   0.376                     0.363             0                0           0            -1.793534e+07  2996.140020
+8          14         600                   0.360                     0.352             0                0           0            -1.793489e+07  5094.399772
+Best Variational Lower Bound at Iteration = 600
+Finish time: 2022-09-01 01:42:54.294931

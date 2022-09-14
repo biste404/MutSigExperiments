@@ -1,0 +1,6 @@
+wgs_wes__Breast,14,0.31,0.31,3474,200,200,"range(2, 31)",934,Variational Lower Bound,-17939504.89
+wgs_wes__Liver-HCC,15,0.91,0.31,3474,200,200,"range(2, 31)",916,Variational Lower Bound,-20354616.76
+wgs_wes__Skin-Melanoma,29,0.31,0.01,3474,200,200,"range(2, 31)",831,Variational Lower Bound,-80821042.19
+wgs_wes__Lung-SCC,11,0.91,0.61,3474,300,300,"range(2, 31)",601,Variational Lower Bound,-9772132.575
+wgs_wes__Prost-AdenoCA,13,0.31,0.91,3474,300,300,"range(2, 31)",286,Variational Lower Bound,-4434780.234
+wgs_wes__CNS-GBM,11,0.01,0.61,3474,300,300,"range(2, 31)",605,Variational Lower Bound,-2156757.989

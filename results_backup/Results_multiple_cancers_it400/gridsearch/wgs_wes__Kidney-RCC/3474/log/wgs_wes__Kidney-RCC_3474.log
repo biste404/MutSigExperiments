@@ -1,0 +1,96 @@
+Start time: 2022-08-29 23:18:35.236310
+Model_name:  wgs_wes__Kidney-RCC
+Number of records to train:  226
+Model directory: /Users/bs/Documents/TestRun6/MutSigExperiments/Results_KidneyRCC_it400_ig100/gridsearch/wgs_wes__Kidney-RCC/3474/
+
+****************************************** Baseline LDA ******************************************
+Baseline model parameters: Passes = 2, Iterations = 2, Num topics = 5
+Variational Lower Bound:  -4710402.719811678
+Mean Cosine Similarity:  0.986
+Median Cosine Similarity:  0.983
+
+****************************************** GRID SEARCH - NUM TOPICS ******************************************
+Grid search parameters: Passes = 400, Iterations = 400, Num topics = range(2, 30, 2), Metric = Variational Lower Bound
+num_topics:  2
+Variational Lower Bound: -4619560.444673181
+Time taken: 277.366877
+num_topics:  4
+Variational Lower Bound: -4604004.173595309
+Time taken: 1001.446643
+num_topics:  6
+Variational Lower Bound: -4601919.54054904
+Time taken: 1418.915377
+num_topics:  8
+Variational Lower Bound: -4600679.972287536
+Time taken: 1747.167078
+num_topics:  10
+Variational Lower Bound: -4600905.8929947615
+Time taken: 1461.579369
+num_topics:  12
+Variational Lower Bound: -4600613.534929872
+Time taken: 1340.830853
+num_topics:  14
+Variational Lower Bound: -4600670.19609946
+Time taken: 1363.390085
+num_topics:  16
+Variational Lower Bound: -4601405.4341852665
+Time taken: 1469.182186
+num_topics:  18
+Variational Lower Bound: -4601903.062539041
+Time taken: 1497.95517
+num_topics:  20
+Variational Lower Bound: -4602554.0452875495
+Time taken: 2012.978723
+num_topics:  22
+Variational Lower Bound: -4602424.411726177
+Time taken: 1493.75434
+num_topics:  24
+Variational Lower Bound: -4603141.569506288
+Time taken: 1448.165501
+num_topics:  26
+Variational Lower Bound: -4603611.229316056
+Time taken: 1457.879132
+num_topics:  28
+Variational Lower Bound: -4603647.051097095
+Time taken: 958.272422
+    Num Topics  Mean Cosine Similarity  Median Cosine Similarity  Coherence cv  Coherence umass  Perplexity  Variational Lower Bound      Time(s)
+0            2                   0.653                     0.653             0                0           0            -4.619560e+06   277.366877
+1            4                   0.690                     0.622             0                0           0            -4.604004e+06  1001.446643
+2            6                   0.723                     0.642             0                0           0            -4.601920e+06  1418.915377
+3            8                   0.565                     0.502             0                0           0            -4.600680e+06  1747.167078
+4           10                   0.613                     0.526             0                0           0            -4.600906e+06  1461.579369
+5           12                   0.569                     0.467             0                0           0            -4.600614e+06  1340.830853
+6           14                   0.504                     0.438             0                0           0            -4.600670e+06  1363.390085
+7           16                   0.635                     0.498             0                0           0            -4.601405e+06  1469.182186
+8           18                   0.537                     0.435             0                0           0            -4.601903e+06  1497.955170
+9           20                   0.607                     0.528             0                0           0            -4.602554e+06  2012.978723
+10          22                   0.667                     0.532             0                0           0            -4.602424e+06  1493.754340
+11          24                   0.597                     0.479             0                0           0            -4.603142e+06  1448.165501
+12          26                   0.592                     0.469             0                0           0            -4.603611e+06  1457.879132
+13          28                   0.653                     0.504             0                0           0            -4.603647e+06   958.272422
+Best Variational Lower Bound at Num Topics = 12
+
+****************************************** GRID SEARCH - ALPHA, BETA ******************************************
+Grid search parameters: Passes = 400, Iterations = 400, Num topics = 12, Metric = Variational Lower Bound
+    topics  alpha  beta  Variational Lower Bound  Mean Cosine Similarity  Median Cosine Similarity
+0       12   0.01  0.01            -4.602790e+06                   0.404                     0.365
+1       12   0.01  0.31            -4.600714e+06                   0.544                     0.643
+2       12   0.01  0.61            -4.600586e+06                   0.579                     0.700
+3       12   0.01  0.91            -4.600725e+06                   0.604                     0.694
+4       12   0.31  0.01            -4.603242e+06                   0.351                     0.279
+5       12   0.31  0.31            -4.601858e+06                   0.567                     0.631
+6       12   0.31  0.61            -4.601338e+06                   0.606                     0.659
+7       12   0.31  0.91            -4.600416e+06                   0.590                     0.731
+8       12   0.61  0.01            -4.604703e+06                   0.478                     0.450
+9       12   0.61  0.31            -4.601123e+06                   0.505                     0.533
+10      12   0.61  0.61            -4.600804e+06                   0.541                     0.583
+11      12   0.61  0.91            -4.600824e+06                   0.564                     0.641
+12      12   0.91  0.01            -4.604724e+06                   0.571                     0.652
+13      12   0.91  0.31            -4.601609e+06                   0.593                     0.659
+14      12   0.91  0.61            -4.601339e+06                   0.606                     0.671
+15      12   0.91  0.91            -4.601295e+06                   0.616                     0.688
+Best Variational Lower Bound at Alpha = 0.31, Tuned Beta = 0.91
+
+****************************************** TUNED HYPERPARAMETERS ******************************************
+Tuned model parameters: Num topics = 12, Alpha = 0.31, Beta = 0.91
+Finish time: 2022-08-30 07:42:20.711292
