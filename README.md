@@ -24,9 +24,8 @@ To run this project, download code to local using :
 ```
 $ cd ../<yourfolder>
 $ git clone https://github.com/biste404/MutSigExperiments
-```
 
-
-or 
+# or 
 
 $ git clone https://github.com/biste404/MutSigExperiments
+```
