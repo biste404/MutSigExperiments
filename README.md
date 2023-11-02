@@ -27,3 +27,6 @@ $ git clone https://github.com/biste404/MutSigExperiments
 ```
 
 
+or 
+
+$ git clone https://github.com/biste404/MutSigExperiments
